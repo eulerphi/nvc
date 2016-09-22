@@ -11,6 +11,7 @@ namespace AnkiCardCreator
         {
             var result = string.Empty;
 
+            var path = args.Single();
             var files = Directory.EnumerateFiles(path);
             foreach (var filePath in files)
             {
